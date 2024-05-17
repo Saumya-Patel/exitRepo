@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.FlipkartTestCase">
+        <methods>
+          <include name="scrollPageToBottom"/>
+          <include name="getProductHighlights"/>
+          <include name="verifyHighToLow"/>
+          <include name="signupWithMobileNumber"/>
+          <include name="clickOnShareButton"/>
+          <include name="verifyGiftCardRedemption"/>
+          <include name="enterPinCodeTest"/>
+          <include name="teardown"/>
+          <include name="searchProduct"/>
+          <include name="gotoGroupCompanies"/>
+          <include name="goToCorporateHomeAndSelectSustainability"/>
+          <include name="clickOnNotificationPreferences"/>
+          <include name="setup"/>
+          <include name="testCommunicationPreferencesPage"/>
+          <include name="goToGroceryPage"/>
+          <include name="loginToFlipkart"/>
+          <include name="getTestResult"/>
+          <include name="goToGrocerySnacksBeveragesBiscuitsPage"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- tests.FlipkartTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

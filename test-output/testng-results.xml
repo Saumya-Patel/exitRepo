@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-18T00:53:20 IST" name="Test Suite" finished-at="2024-05-18T00:54:59 IST" duration-ms="99701">
+    <groups>
+    </groups>
+    <test started-at="2024-05-18T00:53:20 IST" name="Flipkart Test in Chrome" finished-at="2024-05-18T00:54:59 IST" duration-ms="99701">
+      <class name="tests.FlipkartTestCase">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:20 IST" name="setup" finished-at="2024-05-18T00:53:27 IST" duration-ms="7131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:29 IST" name="signupWithMobileNumber" data-provider="testdata" finished-at="2024-05-18T00:53:35 IST" duration-ms="5712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9335173218]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithMobileNumber -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:35 IST" name="getTestResult" finished-at="2024-05-18T00:53:35 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupWithMobileNumber status=SUCCESS method=FlipkartTestCase.signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:35 IST" name="signupWithMobileNumber" data-provider="testdata" finished-at="2024-05-18T00:53:39 IST" duration-ms="4224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9935668283]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithMobileNumber -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:39 IST" name="getTestResult" finished-at="2024-05-18T00:53:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupWithMobileNumber status=SUCCESS method=FlipkartTestCase.signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:39 IST" name="signupWithMobileNumber" data-provider="testdata" finished-at="2024-05-18T00:53:43 IST" duration-ms="3913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8574615969]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithMobileNumber -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:43 IST" name="getTestResult" finished-at="2024-05-18T00:53:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupWithMobileNumber status=SUCCESS method=FlipkartTestCase.signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:43 IST" name="signupWithMobileNumber" data-provider="testdata" finished-at="2024-05-18T00:53:47 IST" duration-ms="3990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8976456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithMobileNumber -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:47 IST" name="getTestResult" finished-at="2024-05-18T00:53:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupWithMobileNumber status=SUCCESS method=FlipkartTestCase.signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:47 IST" name="signupWithMobileNumber" data-provider="testdata" finished-at="2024-05-18T00:53:51 IST" duration-ms="3848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9977886655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithMobileNumber -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:51 IST" name="getTestResult" finished-at="2024-05-18T00:53:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupWithMobileNumber status=SUCCESS method=FlipkartTestCase.signupWithMobileNumber(java.lang.String)[pri:1, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="loginToFlipkart()[pri:2, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:51 IST" name="loginToFlipkart" finished-at="2024-05-18T00:53:57 IST" duration-ms="5966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFlipkart -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:57 IST" name="getTestResult" finished-at="2024-05-18T00:53:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToFlipkart status=SUCCESS method=FlipkartTestCase.loginToFlipkart()[pri:2, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="searchProduct()[pri:3, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:57 IST" name="searchProduct" finished-at="2024-05-18T00:53:57 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:57 IST" name="getTestResult" finished-at="2024-05-18T00:53:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=FlipkartTestCase.searchProduct()[pri:3, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="addToCart()[pri:4, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:53:57 IST" name="addToCart" finished-at="2024-05-18T00:54:04 IST" duration-ms="7562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:04 IST" name="getTestResult" finished-at="2024-05-18T00:54:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=FlipkartTestCase.addToCart()[pri:4, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="getProductHighlights()[pri:5, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:04 IST" name="getProductHighlights" finished-at="2024-05-18T00:54:16 IST" duration-ms="11978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductHighlights -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:16 IST" name="getTestResult" finished-at="2024-05-18T00:54:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getProductHighlights status=SUCCESS method=FlipkartTestCase.getProductHighlights()[pri:5, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="goToGroceryPage()[pri:6, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:16 IST" name="goToGroceryPage" finished-at="2024-05-18T00:54:20 IST" duration-ms="3841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToGroceryPage -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:20 IST" name="getTestResult" finished-at="2024-05-18T00:54:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGroceryPage status=SUCCESS method=FlipkartTestCase.goToGroceryPage()[pri:6, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="enterPinCodeTest()[pri:7, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:20 IST" name="enterPinCodeTest" finished-at="2024-05-18T00:54:24 IST" duration-ms="3488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPinCodeTest -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:24 IST" name="getTestResult" finished-at="2024-05-18T00:54:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterPinCodeTest status=SUCCESS method=FlipkartTestCase.enterPinCodeTest()[pri:7, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="goToGrocerySnacksBeveragesBiscuitsPage()[pri:8, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:24 IST" name="goToGrocerySnacksBeveragesBiscuitsPage" finished-at="2024-05-18T00:54:36 IST" duration-ms="11808" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='DByuf4']"}
+  (Session info: chrome=124.0.6367.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e10a2056aa663413e965a674c5f67ad0, findElement {value=//img[@class='DByuf4'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\SAUMYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54342/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e10a2056aa663413e965a674c5f67ad0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='DByuf4']"}
+  (Session info: chrome=124.0.6367.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e10a2056aa663413e965a674c5f67ad0, findElement {value=//img[@class='DByuf4'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\SAUMYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54342/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e10a2056aa663413e965a674c5f67ad0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at tests.FlipkartTestCase.goToGrocerySnacksBeveragesBiscuitsPage(FlipkartTestCase.java:257)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToGrocerySnacksBeveragesBiscuitsPage -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:36 IST" name="getTestResult" finished-at="2024-05-18T00:54:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGrocerySnacksBeveragesBiscuitsPage status=FAILURE method=FlipkartTestCase.goToGrocerySnacksBeveragesBiscuitsPage()[pri:8, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="testCommunicationPreferencesPage()[pri:9, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:36 IST" name="testCommunicationPreferencesPage" finished-at="2024-05-18T00:54:37 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCommunicationPreferencesPage -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:37 IST" name="getTestResult" finished-at="2024-05-18T00:54:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCommunicationPreferencesPage status=SUCCESS method=FlipkartTestCase.testCommunicationPreferencesPage()[pri:9, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="goToCorporateHomeAndSelectSustainability()[pri:10, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:37 IST" name="goToCorporateHomeAndSelectSustainability" finished-at="2024-05-18T00:54:40 IST" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCorporateHomeAndSelectSustainability -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:40 IST" name="getTestResult" finished-at="2024-05-18T00:54:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToCorporateHomeAndSelectSustainability status=SUCCESS method=FlipkartTestCase.goToCorporateHomeAndSelectSustainability()[pri:10, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="scrollPageToBottom()[pri:11, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:40 IST" name="scrollPageToBottom" finished-at="2024-05-18T00:54:43 IST" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPageToBottom -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:43 IST" name="getTestResult" finished-at="2024-05-18T00:54:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollPageToBottom status=SUCCESS method=FlipkartTestCase.scrollPageToBottom()[pri:11, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="gotoGroupCompanies()[pri:12, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:43 IST" name="gotoGroupCompanies" finished-at="2024-05-18T00:54:47 IST" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoGroupCompanies -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:47 IST" name="getTestResult" finished-at="2024-05-18T00:54:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gotoGroupCompanies status=SUCCESS method=FlipkartTestCase.gotoGroupCompanies()[pri:12, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="verifyGiftCardRedemption()[pri:13, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:47 IST" name="verifyGiftCardRedemption" finished-at="2024-05-18T00:54:50 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiftCardRedemption -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:50 IST" name="getTestResult" finished-at="2024-05-18T00:54:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGiftCardRedemption status=SUCCESS method=FlipkartTestCase.verifyGiftCardRedemption()[pri:13, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="verifyHighToLow()[pri:14, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:50 IST" name="verifyHighToLow" finished-at="2024-05-18T00:54:53 IST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighToLow -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:53 IST" name="getTestResult" finished-at="2024-05-18T00:54:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHighToLow status=SUCCESS method=FlipkartTestCase.verifyHighToLow()[pri:14, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="clickOnShareButton()[pri:15, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:53 IST" name="clickOnShareButton" finished-at="2024-05-18T00:54:55 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnShareButton -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:55 IST" name="getTestResult" finished-at="2024-05-18T00:54:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnShareButton status=SUCCESS method=FlipkartTestCase.clickOnShareButton()[pri:15, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="clickOnNotificationPreferences()[pri:16, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:55 IST" name="clickOnNotificationPreferences" finished-at="2024-05-18T00:54:56 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNotificationPreferences -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:56 IST" name="getTestResult" finished-at="2024-05-18T00:54:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnNotificationPreferences status=SUCCESS method=FlipkartTestCase.clickOnNotificationPreferences()[pri:16, instance:tests.FlipkartTestCase@7dc3712] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FlipkartTestCase@7dc3712]" started-at="2024-05-18T00:54:56 IST" name="teardown" finished-at="2024-05-18T00:54:59 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.FlipkartTestCase -->
+    </test> <!-- Flipkart Test in Chrome -->
+  </suite> <!-- Test Suite -->
+</testng-results>
