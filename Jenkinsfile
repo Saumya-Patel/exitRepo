@@ -3,7 +3,10 @@ pipeline {
     tools {
         maven "MAVEN_HOME"
     }
-    
+    environment {
+        JAVA_HOME = 'C:\\Program Files\\OpenLogic\\jdk-21.0.3.1-hotspot'
+        PATH = "${env.JAVA_HOME}\\bin;${env.PATH}"
+    }
     stages {
         stage('Clean') {
             steps {
