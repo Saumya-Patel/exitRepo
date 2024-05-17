@@ -5,7 +5,7 @@ pipeline {
     }
     
     stages {
-        stage('Clean Up') {
+        stage('Clean') {
             steps {
                 // Clean up any temporary files or resources
                 bat 'mvn clean'
