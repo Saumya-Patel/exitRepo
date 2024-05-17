@@ -2,9 +2,7 @@ pipeline {
     agent any
     environment {
         MAVEN_HOME = 'C:\\apache-maven-3.9.6'
-        PATH = "C:\\apache-maven-3.9.6\\bin;${env.PATH}"
-        JAVA_HOME = 'C:\\Program Files\\OpenLogic\\jdk-21.0.3.1-hotspot'
-        PATH = "${env.JAVA_HOME}\\bin;${env.PATH}"
+        PATH = "C:\\apache-maven-3.9.6\\bin;${env.PATH};C:\\Program Files\\OpenLogic\\jdk-21.0.3.1-hotspot\\bin"
     }
     stages {
         stage('Clean') {
