@@ -3,6 +3,11 @@ pipeline {
     environment {
         MAVEN_HOME = 'C:\\apache-maven-3.9.6'
         PATH = "C:\\apache-maven-3.9.6\\bin;${env.PATH};C:\\Program Files\\OpenLogic\\jdk-21.0.3.1-hotspot\\bin"
+        headless = 'true'
+        url = 'https://www.flipkart.com/'
+        chromeDriverPath = 'C:\\Users\\saumyapatel\\eclipse-workspace\\ExitTest\\src\\main\\resources\\drivers\\chromedriver.exe'
+        firefoxDriverPath = 'C:\\Users\\saumyapatel\\eclipse-workspace\\ExitTest\\src\\main\\resources\\drivers\\geckodriver.exe'
+        ieDriverPath = 'C:\\Users\\saumyapatel\\eclipse-workspace\\ExitTest\\src\\main\\resources\\drivers\\IEDriverServer.exe'
     }
     stages {
         stage('Clean') {
@@ -15,6 +20,12 @@ pipeline {
             steps {
                 // Clean and build the Maven project
                 bat 'mvn compile' // or 'mvn package'
+                script {
+                    echo "Headless mode: ${headless}"
+                    echo "URL: ${url}"
+                    echo "ChromeDriver path: ${chromeDriverPath}"
+                    // Run your build commands here
+                }
             }
         }
         stage('Test') {
