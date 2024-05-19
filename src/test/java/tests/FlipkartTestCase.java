@@ -87,6 +87,7 @@ public class FlipkartTestCase {
         properties.load(configFile);
 
         //String headless = System.getenv("headless");
+		boolean headless = Boolean.parseBoolean(headlessParam);
         String url =System.getenv("url");
         String chromeDriverPath = System.getenv("chromeDriverPath");
         String firefoxDriverPath = properties.getProperty("firefoxDriverPath");
