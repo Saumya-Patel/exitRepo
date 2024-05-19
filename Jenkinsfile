@@ -2,7 +2,7 @@ pipeline {
     agent any
     parameters {
         string(name: 'browser', defaultValue: 'chrome', description: 'Browser to use')
-        booleanParam(name: 'headless', defaultValue: true, description: 'Run in headless mode')
+        string(name: 'headless', defaultValue: 'true', description: 'Run in headless mode')
     }
     environment {
         MAVEN_HOME = 'C:\\apache-maven-3.9.6'
