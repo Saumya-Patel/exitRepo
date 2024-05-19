@@ -86,19 +86,21 @@ public class FlipkartTestCase {
         FileInputStream configFile = new FileInputStream(projectpath + "\\src\\main\\resources\\config.properties");
         properties.load(configFile);
 
-        headless = Boolean.parseBoolean(properties.getProperty("headless"));
-        String url = properties.getProperty("url");
-        String chromeDriverPath = properties.getProperty("chromeDriverPath");
+        String headless = System.getenv("headless");
+        String url =System.getenv("url");
+        String chromeDriverPath = System.getenv("chromeDriverPath");
         String firefoxDriverPath = properties.getProperty("firefoxDriverPath");
         String ieDriverPath = properties.getProperty("ieDriverPath");
 
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", chromeDriverPath);
             ChromeOptions options = new ChromeOptions();
-            	options.addArguments("--headless");
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
-            driver = new ChromeDriver(options);
+            	if (Boolean.parseBoolean(headless)) {
+           		options.addArguments("--headless");
+        	}
+        	options.addArguments("--no-sandbox");
+        	options.addArguments("--disable-dev-shm-usage");
+        	driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", firefoxDriverPath);
             driver = new FirefoxDriver();
