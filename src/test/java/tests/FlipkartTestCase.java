@@ -86,7 +86,7 @@ public class FlipkartTestCase {
         FileInputStream configFile = new FileInputStream(projectpath + "\\src\\main\\resources\\config.properties");
         properties.load(configFile);
 
-        //String headless = System.getenv("headless");
+        String headless = System.getenv("headless");
 		//boolean headless = Boolean.parseBoolean(headlessParam);
         String url =System.getenv("url");
         String chromeDriverPath = System.getenv("chromeDriverPath");
