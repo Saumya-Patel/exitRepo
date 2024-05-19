@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    parameters {
-        string(name: 'browser', defaultValue: 'chrome', description: 'Browser to use')
-        string(name: 'headless', defaultValue: 'true', description: 'Run in headless mode')
-    }
     environment {
         MAVEN_HOME = 'C:\\apache-maven-3.9.6'
         PATH = "C:\\apache-maven-3.9.6\\bin;${env.PATH};C:\\Program Files\\OpenLogic\\jdk-21.0.3.1-hotspot\\bin"
