@@ -95,9 +95,9 @@ public class FlipkartTestCase {
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", chromeDriverPath);
             ChromeOptions options = new ChromeOptions();
-            if (headless) {
-                options.addArguments("--headless");
-            }
+            	options.addArguments("--headless");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", firefoxDriverPath);
