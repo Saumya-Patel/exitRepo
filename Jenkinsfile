@@ -28,6 +28,8 @@ pipeline {
                     echo "Headless mode: ${headless}"
                     echo "URL: ${url}"
                     echo "ChromeDriver path: ${chromeDriverPath}"
+                    mvnTestCmd = "mvn test -Dbrowser=${params.browser} -Dheadless=${params.headless}"
+                    sh mvnTestCmd
                     // Run your build commands here
                 }
             }
